@@ -589,6 +589,7 @@
 
         });
 
+        //完成全选/全不选功能
         $("#check_all").click(function () {
             //attr获取checked是undefined;
             //attr获取自定义属性的值；
