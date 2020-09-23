@@ -21,8 +21,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="595" column="32" selection-start-line="595" selection-start-column="32" selection-end-line="595" selection-end-column="32" />
+            <state relative-caret-position="315">
+              <caret line="634" column="13" lean-forward="true" selection-start-line="634" selection-start-column="13" selection-end-line="634" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -48,8 +48,20 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="19">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +69,42 @@
       <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="280">
+              <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/EmployeeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/service/EmployeeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+              <folding>
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/dao/EmployeeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -98,6 +144,7 @@
       <find>web.xml</find>
       <find>edit_btn</find>
       <find>attr</find>
+      <find>Criteria</find>
     </findStrings>
     <replaceStrings>
       <replace>Employee</replace>
@@ -130,12 +177,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/service/DepartmentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/Msg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/dao/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/dao/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/crud/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
@@ -181,19 +228,162 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="width" value="1416" />
-    <option name="height" value="1029" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="700" />
+    <option name="y" value="12" />
+    <option name="width" value="1071" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm-crud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="web.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRUD/ssm-crud/src/main/webapp/WEB-INF/web.xml&#10;EmployeeC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;Employee&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/Employee.java&#10;pom&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/pom.xml&#10;EmployeeMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;index.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/webapp/index.jsp&#10;EmployeeMapper&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;EmployeeMa&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;EmployeeCon&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;Criteria&#9;PSI&#9;JAVA://com.atguigu.crud.bean.DepartmentExample.Criteria&#10;EmployeeMapp&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;index&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/webapp/index.jsp&#10;employee&#9;null&#9;null&#10;my&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/resources/mybatis-config.xml&#10;EmployeeController&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;con&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;application&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/resources/applicationContext.xml&#10;Employ&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/Employee.java&#10;DepartmentMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/DepartmentMapper.xml&#10;DepartmentM&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/dao/DepartmentMapper.java&#10;De&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/Department.java&#10;Department.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/DepartmentMapper.xml&#10;DepartmentMapper&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/dao/DepartmentMapper.java&#10;Mapper&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/test/MapperTest.java&#10;Emp&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;pom.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Emp&#9;FILE&#9;file://E:/My Note/编程/SSM-CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;EmployeeExample&#9;FILE&#9;file://E:/My Note/编程/SSM-CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/EmployeeExample.java&#10;web.xml&#9;FILE&#9;file://E:/My Note/编程/SSM-CRUD/ssm-crud/src/main/webapp/WEB-INF/web.xml&#10;EmployeeC&#9;FILE&#9;file://E:/My Note/编程/SSM-CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;Employee&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/Employee.java&#10;pom&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/pom.xml&#10;EmployeeMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;index.jsp&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/webapp/index.jsp&#10;EmployeeMapper&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;EmployeeMa&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;EmployeeCon&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;Criteria&#9;PSI&#9;JAVA://com.atguigu.crud.bean.DepartmentExample.Criteria&#10;EmployeeMapp&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml&#10;index&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/webapp/index.jsp&#10;employee&#9;null&#9;null&#10;my&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/resources/mybatis-config.xml&#10;EmployeeController&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;con&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/controller/EmployeeController.java&#10;application&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/resources/applicationContext.xml&#10;Employ&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/Employee.java&#10;DepartmentMapper.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/DepartmentMapper.xml&#10;DepartmentM&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/dao/DepartmentMapper.java&#10;De&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/bean/Department.java&#10;Department.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/mapper/DepartmentMapper.xml&#10;DepartmentMapper&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/dao/DepartmentMapper.java&#10;Mapper&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/src/main/java/com/atguigu/crud/test/MapperTest.java&#10;pom.xml&#9;FILE&#9;file://E:/My Note/编程/SSM_CRUD/ssm-crud/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
@@ -211,19 +401,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.atguigu.crud.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\webapp\WEB-INF" />
-      <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\webapp" />
       <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\java\com\atguigu\crud\bean" />
       <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\resources" />
       <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\webapp\WEB-INF" />
       <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\webapp\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\webapp\WEB-INF" />
+      <recent name="E:\My Note\编程\SSM_CRUD\ssm-crud\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -639,6 +829,7 @@
       <workItem from="1600820747427" duration="2427000" />
       <workItem from="1600836012473" duration="5210000" />
       <workItem from="1600845555882" duration="376000" />
+      <workItem from="1600867993084" duration="3960000" />
     </task>
     <servers />
   </component>
@@ -675,10 +866,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111444000" />
+    <option name="totallyTimeSpent" value="115404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="0" width="944" height="686" extended-state="0" />
+    <frame x="532" y="13" width="713" height="689" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956687" />
@@ -699,10 +890,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10363636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.101265825" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49902534" weight="0.32943678" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49902534" weight="0.38939053" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955974" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -986,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/EmployeeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="437" column="24" selection-start-line="437" selection-start-column="24" selection-end-line="437" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mbg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1021,38 +1205,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/dao/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="234" column="11" lean-forward="true" selection-start-line="234" selection-start-column="11" selection-end-line="234" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1070,17 +1226,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/dao/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding>
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="280">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/EmployeeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/crud/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="595" column="32" selection-start-line="595" selection-start-column="32" selection-end-line="595" selection-end-column="32" />
+        <state relative-caret-position="315">
+          <caret line="634" column="13" lean-forward="true" selection-start-line="634" selection-start-column="13" selection-end-line="634" selection-end-column="13" />
         </state>
       </provider>
     </entry>

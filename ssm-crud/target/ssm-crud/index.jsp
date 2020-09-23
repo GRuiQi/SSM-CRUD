@@ -575,7 +575,7 @@
 			*/
             if(confirm("确认删除["+empName+"]吗？")){
                 //确认，发送ajax请求即可
-               /* $.ajax({
+               $.ajax({
                     url: "${APP_PATH}/emp/"+empId,
                     type: "DELETE",
                     success:function (result) {
@@ -584,7 +584,7 @@
                         //回到本页
                         to_page(currentPage);
                     }
-                });*/
+                });
             }
 
         });
@@ -602,6 +602,38 @@
             var flag = $(".check_item:checked").length == $(".check_item").length;
             $("#check_all").prop("checked",flag);
         })
+
+        //点击全部删除，就批量删除
+        $("#emp_del_modal_btn").click(function () {
+            var empNames = "";
+            var del_idstr = "";
+            $.each($(".check_item:checked"),function () {
+                //this
+                empNames += $(this).parents("tr").find("td:eq(2)").text()+",";
+                //组成员工id字符串
+                del_idstr += $(this).parents("tr").find("td:eq(1)").text()+"-";
+            });
+            //去除empName多于的逗号
+            empNames = empNames.substring(0,empNames.length-1);
+            //去除删除的id多于的-
+            del_idstr = del_idstr.substring(0,del_idstr.length-1);
+
+            if(confirm("确认删除["+empNames+"]吗？")){
+                //确认，发送ajax请求即可
+                $.ajax({
+                    url: "${APP_PATH}/emp/"+del_idstr,
+                    type: "DELETE",
+                    success:function (result) {
+                        alert(result.msg);
+
+                        //回到本页
+                        to_page(currentPage);
+                        //删除成功后，全选框需要取消
+                        $("#check_all").prop("checked",false);
+                    }
+                });
+            }
+        });
     </script>
 </body>
 </html>

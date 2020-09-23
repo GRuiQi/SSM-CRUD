@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Param;
 public interface EmployeeMapper {
     long countByExample(EmployeeExample example);
 
-    int deleteByExample(Employee example);
+    int deleteByExample(EmployeeExample example);
 
     int deleteByPrimaryKey(Integer empId);
 
