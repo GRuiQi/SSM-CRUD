@@ -23,6 +23,13 @@ public class EmployeeService {
         return employeeMapper.selectByExampleWithDept(null);
     }
 
+    /*
+    * 按照员工id查询员工
+    * */
+    public Employee getEmp(Integer id){
+        Employee employee = employeeMapper.selectByPrimaryKey(id);
+        return employee;
+    }
 
     public void saveEmp(Employee employee) {
         employeeMapper.insertSelective(employee);
@@ -43,5 +50,10 @@ public class EmployeeService {
         }else{
             return false;
         }*/
+    }
+
+    public void update(Employee employee) {
+        employeeMapper.updateByPrimaryKeySelective(employee);
+
     }
 }

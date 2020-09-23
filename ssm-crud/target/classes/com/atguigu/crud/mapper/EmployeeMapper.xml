@@ -134,9 +134,6 @@
     from tbl_emp
     where emp_id = #{empId,jdbcType=INTEGER}
   </select>
-  <select id="checkUser" parameterType="string" resultType="int">
-    select count(*) from tbl_emp where empName = #{empName}
-  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from tbl_emp
     where emp_id = #{empId,jdbcType=INTEGER}
