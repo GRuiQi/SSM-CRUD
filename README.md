@@ -1,7 +1,8 @@
 # SSM-CRUD
 
-
 ssm高级整合 视频： https://www.bilibili.com/video/BV1L4411u7zJ
+
+
 
 #### 项目简介
 
@@ -35,3 +36,19 @@ ssm高级整合 视频： https://www.bilibili.com/video/BV1L4411u7zJ
 - 分页 pagehelper
 
 - 逆向工程 Mybatis Generator
+
+#### 参考资料
+
+引入bootstrap前端框架 https://v3.bootcss.com/getting-started/
+
+mybatis官方文档 https://mybatis.org/mybatis-3/
+
+逆向工程使用文档：http://mybatis.org/generator/
+
+
+
+#### 总结
+
+
+
+![image-20200923233259413](https://qiyewuan-1302629736.cos.ap-nanjing.myqcloud.com/img/image-20200923233259413.png)
