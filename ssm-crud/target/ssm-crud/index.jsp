@@ -154,6 +154,9 @@
                     <table class="table table-hover" id="emps_table">
                         <thead>
                             <tr>
+                                <th>
+                                    <input type="checkbox" id="check_all"/>
+                                </th>
                                 <th>#</th>
                                 <th>empName</th>
                                 <th>gender</th>
@@ -216,6 +219,8 @@
 
             var emps = result.extend.pageInfo.list;
             $.each(emps,function(index,item){
+                var checkBoxId = $("<td><input type='checkbox' class='check_item'/></td>");
+
                 //console.log(item.empName);
                 var empIdTd = $("<td></td>").append(item.empId);
                 var empNameTd = $("<td></td>").append(item.empName);
@@ -233,9 +238,13 @@
                 var delBtn = $("<button></button>").addClass("btn btn-danger btn-sm delete_btn")
                     .append($("<span></span>").addClass("glyphicon glyphicon-trash")).append("删除");
 
+                /*为删除按钮添加一个自定义属性，来表示当前删除员工的id*/
+                delBtn.attr("del-id",item.empId);
+
                 var btnTd = $("<td></td>").append(editBtn).append(" ").append(delBtn)
                 /*append方法执行完成后还是返回原来的元素*/
-                $("<tr></tr>").append(empIdTd)
+                $("<tr></tr>").append(checkBoxId)
+                    .append(empIdTd)
                     .append(empNameTd)
                     .append(empGenderTd)
                     .append(emailTd)
@@ -493,7 +502,8 @@
       });
 
 
-      //
+      //jQuery的事件绑定在页面加载时就已经完成，所以之后添加的class将无法绑定上事件
+      //需要用到 .on("click",id选择器，方法)
       $(document).on("click",".edit_btn",function(){
           //alert("edit");
 
@@ -554,6 +564,43 @@
 
         });
 
+      //单个删除
+        $(document).on("click",".delete_btn",function () {
+            //1.弹出是否确认删除对话框
+            var empName = $(this).parents("tr").find("td:eq(2)").text();
+            var empId = $(this).attr("del-id");
+            /*confirm() 方法用于显示一个带有指定消息和 OK 及取消按钮的对话框。
+             * 如果用户点击确定按钮，则 confirm() 返回 true。如果点击取消按钮，
+			 * 则 confirm() 返回 false。
+			*/
+            if(confirm("确认删除["+empName+"]吗？")){
+                //确认，发送ajax请求即可
+               /* $.ajax({
+                    url: "${APP_PATH}/emp/"+empId,
+                    type: "DELETE",
+                    success:function (result) {
+                        alert(result.msg);
+
+                        //回到本页
+                        to_page(currentPage);
+                    }
+                });*/
+            }
+
+        });
+
+        $("#check_all").click(function () {
+            //attr获取checked是undefined;
+            //attr获取自定义属性的值；
+            //prop修改和读取dom原生属性的值
+            $(".check_item").prop("checked",$(this).prop("checked"));
+        });
+
+        $(document).on("click",".check_item",function () {
+            //判断当前的元素是否全部被选中（5个）
+            var flag = $(".check_item:checked").length == $(".check_item").length;
+            $("#check_all").prop("checked",flag);
+        })
     </script>
 </body>
 </html>
