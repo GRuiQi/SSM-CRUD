@@ -2,7 +2,7 @@
 
 ssm高级整合 视频： https://www.bilibili.com/video/BV1L4411u7zJ
 
-
+![ssm-crud](https://github.com/GRuiQi/SSM-CRUD/blob/master/ssm-crud.png)
 
 #### 项目简介
 
