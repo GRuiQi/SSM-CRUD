@@ -47,8 +47,3 @@ mybatis官方文档 https://mybatis.org/mybatis-3/
 
 
 
-#### 总结
-
-
-
-![image-20200923233259413](https://qiyewuan-1302629736.cos.ap-nanjing.myqcloud.com/img/image-20200923233259413.png)
