@@ -2,19 +2,11 @@
 
 ssm高级整合 视频： https://www.bilibili.com/video/BV1L4411u7zJ
 
-![ssm-crud](https://github.com/GRuiQi/SSM-CRUD/blob/master/ssm-crud.png)
-
 #### 项目简介
 
 **SSM_CRUD**
 
-- Create 创建
-
-- Retrieve 查询
-
-- Update 更新
-
-- Delete 删除
+Create(创建),Retrieve(查询),Update(更新),Delete(删除)
 
 **功能点**
 
